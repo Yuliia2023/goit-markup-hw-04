@@ -111,12 +111,13 @@ body {
 /*--------------------------- hero */
 .hero {
   text-align: center;
+  max-width: 1440px;
 }
 .hero-content {
   padding-top: 188px;
   padding-bottom: 188px;
   height: 600px;
-  max-width: 1440px;
+
   margin-left: auto;
   margin-right: auto;
   background-color: var(--title-text-color);
@@ -128,7 +129,6 @@ body {
     url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
 }
 .hero-title {
   margin-top: 0;
@@ -197,12 +197,6 @@ body {
   max-width: 264px;
 }
 
-.feature-icons {
-  border-radius: 4px;
-  max-width: 264px;
-  justify-content: center;
-  align-items: center;
-}
 .feature-pic {
   background: #f4f4fd;
   border-radius: 4px;
@@ -210,7 +204,7 @@ body {
   height: 112px;
   justify-content: center;
   align-items: center;
-  display: block;
+  display: flex;
 }
 
 .feature-img {
